@@ -1,0 +1,37 @@
+body{
+	background-image: url('wallpaper2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	border-image-repeat: no-repeat;
+}
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: linear-gradient(to right, orange, yellow, green);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+}
